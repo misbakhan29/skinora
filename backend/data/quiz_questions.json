@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "order": 1,
+    "text": "How does your face feel by the middle of the day?",
+    "options": [
+      { "value": "a", "text": "Comfortable and balanced — no major oiliness or tightness", "scores": { "normal": 3 } },
+      { "value": "b", "text": "Tight, dry, maybe a little flaky around my nose or cheeks", "scores": { "dry": 3, "sensitive": 1 } },
+      { "value": "c", "text": "Shiny all over, like I need to blot or wash my face again", "scores": { "oily": 3, "acne_prone": 1 } },
+      { "value": "d", "text": "Oily on my forehead and nose, but dry or normal on my cheeks", "scores": { "combination": 3 } }
+    ]
+  },
+  {
+    "id": "q2",
+    "order": 2,
+    "text": "Look closely at your pores — what do you see?",
+    "options": [
+      { "value": "a", "text": "Barely visible — I have to look really close to see them", "scores": { "normal": 2, "dry": 2 } },
+      { "value": "b", "text": "Large and noticeable all over, especially my nose and cheeks", "scores": { "oily": 3, "acne_prone": 1 } },
+      { "value": "c", "text": "Big on my T-zone (forehead/nose/chin) but small elsewhere", "scores": { "combination": 3 } },
+      { "value": "d", "text": "They get clogged easily — I often see blackheads or bumps", "scores": { "acne_prone": 3, "oily": 1 } }
+    ]
+  },
+  {
+    "id": "q3",
+    "order": 3,
+    "text": "How often do you deal with pimples or breakouts?",
+    "options": [
+      { "value": "a", "text": "Hardly ever — maybe one random pimple a few times a year", "scores": { "normal": 2, "dry": 1 } },
+      { "value": "b", "text": "I usually have a few active pimples at any given time", "scores": { "acne_prone": 3, "oily": 1 } },
+      { "value": "c", "text": "Occasionally during stress or my period, but it clears up quickly", "scores": { "combination": 2, "normal": 1 } },
+      { "value": "d", "text": "I get rashes, redness, or stinging more than actual pimples", "scores": { "sensitive": 3 } }
+    ]
+  },
+  {
+    "id": "q4",
+    "order": 4,
+    "text": "Right after washing your face, what happens?",
+    "options": [
+      { "value": "a", "text": "Feels clean and normal — no tightness, no extra oil", "scores": { "normal": 3 } },
+      { "value": "b", "text": "Immediately tight, dry — I NEED moisturizer right away", "scores": { "dry": 3 } },
+      { "value": "c", "text": "Within an hour, my T-zone is already getting oily again", "scores": { "oily": 2, "combination": 2 } },
+      { "value": "d", "text": "Stings, feels irritated, or turns pink/red", "scores": { "sensitive": 3 } }
+    ]
+  },
+  {
+    "id": "q5",
+    "order": 5,
+    "text": "When you try a new skincare product, what usually happens?",
+    "options": [
+      { "value": "a", "text": "It works fine — my skin isn't picky about products", "scores": { "normal": 2, "oily": 1 } },
+      { "value": "b", "text": "My skin often reacts — redness, itching, burning, or breakouts", "scores": { "sensitive": 3 } },
+      { "value": "c", "text": "If it's too heavy, I break out; too light and it doesn't help my dryness", "scores": { "combination": 2, "dry": 1 } },
+      { "value": "d", "text": "New products almost always give me new pimples or clogged bumps", "scores": { "acne_prone": 3 } }
+    ]
+  },
+  {
+    "id": "q6",
+    "order": 6,
+    "text": "What does your skin look like first thing in the morning?",
+    "options": [
+      { "value": "a", "text": "Pretty normal — not oily, not dry, just okay", "scores": { "normal": 3 } },
+      { "value": "b", "text": "Parched and dry — the pillow crease lines linger for ages", "scores": { "dry": 3 } },
+      { "value": "c", "text": "Greasy, like my pillowcase could use a wash after one night", "scores": { "oily": 3 } },
+      { "value": "d", "text": "Oil slick on my forehead but my cheeks feel fine or dry", "scores": { "combination": 3 } }
+    ]
+  },
+  {
+    "id": "q7",
+    "order": 7,
+    "text": "Do you notice redness or flushing on your face?",
+    "options": [
+      { "value": "a", "text": "Nope — my skin tone stays pretty even throughout the day", "scores": { "normal": 2, "oily": 1 } },
+      { "value": "b", "text": "Yes! I flush easily from heat, spicy food, or even slight embarrassment", "scores": { "sensitive": 3 } },
+      { "value": "c", "text": "Only around pimples or where I've been picking at my skin", "scores": { "acne_prone": 2, "oily": 1 } },
+      { "value": "d", "text": "My cheeks sometimes look pink, especially in cold or dry weather", "scores": { "dry": 2, "sensitive": 1 } }
+    ]
+  },
+  {
+    "id": "q8",
+    "order": 8,
+    "text": "How would you describe your skin's texture if you run your fingers across your cheek?",
+    "options": [
+      { "value": "a", "text": "Smooth and soft — no bumps, no rough patches", "scores": { "normal": 3 } },
+      { "value": "b", "text": "Rough, flaky, or scaly in spots — like it's peeling", "scores": { "dry": 3 } },
+      { "value": "c", "text": "Bumpy — I can feel tiny clogged pores or texture under the surface", "scores": { "acne_prone": 3, "oily": 1 } },
+      { "value": "d", "text": "Depends on the area — smooth in some spots, rough or oily in others", "scores": { "combination": 3 } }
+    ]
+  },
+  {
+    "id": "q9",
+    "order": 9,
+    "text": "How does your skin handle sunscreen and makeup?",
+    "options": [
+      { "value": "a", "text": "Sits well, stays put all day without issues", "scores": { "normal": 3 } },
+      { "value": "b", "text": "Slides off or gets patchy within a couple of hours", "scores": { "oily": 3 } },
+      { "value": "c", "text": "Clings to dry patches and looks cakey in some spots", "scores": { "dry": 3 } },
+      { "value": "d", "text": "Slides off my nose but clings to my cheeks — two different faces", "scores": { "combination": 3 } }
+    ]
+  },
+  {
+    "id": "q10",
+    "order": 10,
+    "text": "What's the #1 thing you wish your skincare routine would fix?",
+    "options": [
+      { "value": "a", "text": "Just keep my skin healthy, glowing, and prevent aging", "scores": { "normal": 3 } },
+      { "value": "b", "text": "Stop the dryness, flaking, and that tight uncomfortable feeling", "scores": { "dry": 3 } },
+      { "value": "c", "text": "Control the oil, minimize my pores, and stop the shine", "scores": { "oily": 2, "combination": 1 } },
+      { "value": "d", "text": "Clear my skin — get rid of pimples, blackheads, and congestion", "scores": { "acne_prone": 3 } }
+    ]
+  }
+]

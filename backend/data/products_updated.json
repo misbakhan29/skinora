@@ -1,0 +1,928 @@
+[
+  {
+    "id": "p001",
+    "name": "Foaming Face Wash",
+    "brand": "CeraVe",
+    "step_category": "cleanser",
+    "key_ingredients": [
+      "ceramides",
+      "hyaluronic_acid"
+    ],
+    "skin_type_fit": [
+      "normal",
+      "oily",
+      "combination",
+      "acne_prone"
+    ],
+    "description": "A gentle foaming cleanser that removes dirt and excess oil without disrupting the skin's protective barrier.",
+    "image_url": "https://m.media-amazon.com/images/I/51P0n7m3DNL._AC_SS115_.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 899,
+        "url": "https://www.amazon.in/dp/B01N1LL62W",
+        "rating": 4.4,
+        "review_count": 12400,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 950,
+        "url": "https://www.nykaa.com/cerave-foaming-facial-cleanser",
+        "rating": 4.3,
+        "review_count": 3200,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p002",
+    "name": "Hydrating Facial Cleanser",
+    "brand": "CeraVe",
+    "step_category": "cleanser",
+    "key_ingredients": [
+      "ceramides",
+      "hyaluronic_acid"
+    ],
+    "skin_type_fit": [
+      "dry",
+      "normal",
+      "sensitive"
+    ],
+    "description": "Non-foaming cream cleanser that hydrates while cleansing. Ideal for dry and sensitive skin.",
+    "image_url": "https://m.media-amazon.com/images/I/61oyuM1A5tL._AC_SS115_.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 849,
+        "url": "https://www.amazon.in/dp/B01MSSDEPK",
+        "rating": 4.5,
+        "review_count": 18900,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 899,
+        "url": "https://www.nykaa.com/cerave-hydrating-cleanser",
+        "rating": 4.4,
+        "review_count": 4100,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p003",
+    "name": "Kind to Skin Refreshing Facial Wash",
+    "brand": "Simple",
+    "step_category": "cleanser",
+    "key_ingredients": [
+      "aloe_vera",
+      "glycerin"
+    ],
+    "skin_type_fit": [
+      "sensitive",
+      "normal",
+      "dry"
+    ],
+    "description": "No artificial perfume, no harsh chemicals \u00e2\u20ac\u201d a genuinely gentle cleanser for sensitive skin.",
+    "image_url": "https://m.media-amazon.com/images/I/41T7TZ7BGWL.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 399,
+        "url": "https://www.amazon.in/dp/B00FJFMQHU",
+        "rating": 4.3,
+        "review_count": 6700,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 420,
+        "url": "https://www.nykaa.com/simple-refreshing-facial-wash",
+        "rating": 4.2,
+        "review_count": 1800,
+        "in_stock": true
+      },
+      {
+        "platform": "Purplle",
+        "price": 395,
+        "url": "https://www.purplle.com/simple-kind-to-skin-refreshing-face-wash",
+        "rating": 4.1,
+        "review_count": 950,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p004",
+    "name": "2% Salicylic Acid Face Wash",
+    "brand": "The Minimalist",
+    "step_category": "cleanser",
+    "key_ingredients": [
+      "bha_salicylic"
+    ],
+    "skin_type_fit": [
+      "oily",
+      "acne_prone",
+      "combination"
+    ],
+    "description": "A targeted BHA cleanser that goes deep into pores to clear out oil and debris. Best for oily and acne-prone skin.",
+    "image_url": "https://www.beminimalist.co/cdn/shop/files/02.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 349,
+        "url": "https://www.amazon.in/dp/B0D5NKXNTS",
+        "rating": 4.2,
+        "review_count": 5400,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 349,
+        "url": "https://www.nykaa.com/minimalist-salicylic-acid-face-wash",
+        "rating": 4.1,
+        "review_count": 2300,
+        "in_stock": true
+      },
+      {
+        "platform": "Purplle",
+        "price": 329,
+        "url": "https://www.purplle.com/minimalist-2-salicylic-acid",
+        "rating": 4.0,
+        "review_count": 1100,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p005",
+    "name": "Niacinamide Toner 10%",
+    "brand": "The Minimalist",
+    "step_category": "toner",
+    "key_ingredients": [
+      "niacinamide"
+    ],
+    "skin_type_fit": [
+      "oily",
+      "combination",
+      "acne_prone",
+      "normal"
+    ],
+    "description": "10% niacinamide toner that controls oil, minimizes pores, and evens skin tone. A cult favourite.",
+    "image_url": "https://www.beminimalist.co/cdn/shop/files/niacinamide_toner.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 399,
+        "url": "https://www.amazon.in/dp/B0C5XW2T9F",
+        "rating": 4.3,
+        "review_count": 8100,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 399,
+        "url": "https://www.nykaa.com/minimalist-niacinamide-toner",
+        "rating": 4.2,
+        "review_count": 3100,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p006",
+    "name": "Hydra Rose Water Toner",
+    "brand": "Plum",
+    "step_category": "toner",
+    "key_ingredients": [
+      "aloe_vera",
+      "glycerin"
+    ],
+    "skin_type_fit": [
+      "sensitive",
+      "dry",
+      "normal"
+    ],
+    "description": "A rosewater-based toner that soothes, hydrates, and preps skin for serums. Fragrance-free and gentle.",
+    "image_url": "https://www.plumgoodness.com/cdn/shop/products/toner.jpg",
+    "platform_listings": [
+      {
+        "platform": "Nykaa",
+        "price": 349,
+        "url": "https://www.nykaa.com/plum-rose-toner",
+        "rating": 4.3,
+        "review_count": 4200,
+        "in_stock": true
+      },
+      {
+        "platform": "Amazon",
+        "price": 329,
+        "url": "https://www.amazon.in/dp/B07D5FDQVF",
+        "rating": 4.2,
+        "review_count": 2800,
+        "in_stock": true
+      },
+      {
+        "platform": "Purplle",
+        "price": 310,
+        "url": "https://www.purplle.com/plum-rosewater-toner",
+        "rating": 4.1,
+        "review_count": 1100,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p007",
+    "name": "AHA BHA Clarifying Toner",
+    "brand": "Dot & Key",
+    "step_category": "toner",
+    "key_ingredients": [
+      "aha_glycolic",
+      "bha_salicylic"
+    ],
+    "skin_type_fit": [
+      "oily",
+      "combination",
+      "acne_prone"
+    ],
+    "description": "Dual-acid toner that exfoliates and clears pores in one step. Not for sensitive skin.",
+    "image_url": "https://www.dotandkey.com/cdn/shop/products/aha_bha.jpg",
+    "platform_listings": [
+      {
+        "platform": "Nykaa",
+        "price": 595,
+        "url": "https://www.nykaa.com/dot-and-key-aha-bha-toner",
+        "rating": 4.2,
+        "review_count": 3600,
+        "in_stock": true
+      },
+      {
+        "platform": "Amazon",
+        "price": 565,
+        "url": "https://www.amazon.in/dp/B09KDFPL2C",
+        "rating": 4.1,
+        "review_count": 1800,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p008",
+    "name": "10% Niacinamide Serum",
+    "brand": "The Minimalist",
+    "step_category": "serum",
+    "key_ingredients": [
+      "niacinamide"
+    ],
+    "skin_type_fit": [
+      "oily",
+      "combination",
+      "acne_prone",
+      "normal",
+      "dry"
+    ],
+    "description": "India's best-selling niacinamide serum. Controls oil, minimizes pores, and brightens in 4 weeks.",
+    "image_url": "https://www.beminimalist.co/cdn/shop/files/niacinamide_serum.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 599,
+        "url": "https://www.amazon.in/dp/B08GJB1ZBY",
+        "rating": 4.4,
+        "review_count": 35000,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 599,
+        "url": "https://www.nykaa.com/minimalist-niacinamide-10",
+        "rating": 4.3,
+        "review_count": 12000,
+        "in_stock": true
+      },
+      {
+        "platform": "Purplle",
+        "price": 549,
+        "url": "https://www.purplle.com/minimalist-niacinamide-serum",
+        "rating": 4.2,
+        "review_count": 4500,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p009",
+    "name": "Vitamin C 10% Serum",
+    "brand": "The Minimalist",
+    "step_category": "serum",
+    "key_ingredients": [
+      "vitamin_c"
+    ],
+    "skin_type_fit": [
+      "normal",
+      "oily",
+      "combination",
+      "acne_prone"
+    ],
+    "description": "Stable Vitamin C (Ethyl Ascorbic Acid) that brightens and protects without the typical instability issues.",
+    "image_url": "https://www.beminimalist.co/cdn/shop/files/vitaminc_serum.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 699,
+        "url": "https://www.amazon.in/dp/B08GJB5YXK",
+        "rating": 4.2,
+        "review_count": 14000,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 699,
+        "url": "https://www.nykaa.com/minimalist-vitamin-c",
+        "rating": 4.1,
+        "review_count": 5600,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p010",
+    "name": "2% Retinol Serum",
+    "brand": "The Minimalist",
+    "step_category": "serum",
+    "key_ingredients": [
+      "retinol"
+    ],
+    "skin_type_fit": [
+      "normal",
+      "oily",
+      "combination",
+      "acne_prone"
+    ],
+    "description": "A high-efficacy retinol serum for cell turnover and anti-aging. Start 2x/week and build up.",
+    "image_url": "https://www.beminimalist.co/cdn/shop/files/retinol.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 799,
+        "url": "https://www.amazon.in/dp/B08GKCQVJP",
+        "rating": 4.3,
+        "review_count": 9800,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 799,
+        "url": "https://www.nykaa.com/minimalist-retinol",
+        "rating": 4.2,
+        "review_count": 4100,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p011",
+    "name": "Hyaluronic Acid 2% + B5 Serum",
+    "brand": "The Minimalist",
+    "step_category": "serum",
+    "key_ingredients": [
+      "hyaluronic_acid"
+    ],
+    "skin_type_fit": [
+      "dry",
+      "sensitive",
+      "normal",
+      "combination"
+    ],
+    "description": "Multi-weight hyaluronic acid serum that penetrates multiple skin layers for deep, lasting hydration.",
+    "image_url": "https://www.beminimalist.co/cdn/shop/files/ha_serum.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 599,
+        "url": "https://www.amazon.in/dp/B08GJB7YQK",
+        "rating": 4.3,
+        "review_count": 22000,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": "599",
+        "url": "https://www.nykaa.com/minimalist-hyaluronic-acid",
+        "rating": 4.2,
+        "review_count": 8200,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p012",
+    "name": "Azelaic Acid 10% Serum",
+    "brand": "The Minimalist",
+    "step_category": "serum",
+    "key_ingredients": [
+      "azelaic_acid"
+    ],
+    "skin_type_fit": [
+      "sensitive",
+      "acne_prone",
+      "dry",
+      "combination",
+      "normal"
+    ],
+    "description": "Multi-benefit acid that fights acne, rosacea, and hyperpigmentation. Gentle enough for sensitive skin.",
+    "image_url": "https://www.beminimalist.co/cdn/shop/files/azelaic.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 599,
+        "url": "https://www.amazon.in/dp/B09X4Q2J2P",
+        "rating": 4.2,
+        "review_count": 6700,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 599,
+        "url": "https://www.nykaa.com/minimalist-azelaic-acid",
+        "rating": 4.1,
+        "review_count": 2900,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p013",
+    "name": "2% Salicylic Acid Serum",
+    "brand": "The Minimalist",
+    "step_category": "serum",
+    "key_ingredients": [
+      "bha_salicylic"
+    ],
+    "skin_type_fit": [
+      "oily",
+      "acne_prone",
+      "combination"
+    ],
+    "description": "BHA serum that penetrates oil and clears congested pores from within. Best for blackheads and active breakouts.",
+    "image_url": "https://www.beminimalist.co/cdn/shop/files/salicylic.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 599,
+        "url": "https://www.amazon.in/dp/B08GJBPZ1R",
+        "rating": 4.2,
+        "review_count": 11000,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 599,
+        "url": "https://www.nykaa.com/minimalist-salicylic-serum",
+        "rating": 4.1,
+        "review_count": 4800,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p014",
+    "name": "Centella Asiatica Serum",
+    "brand": "Re'equil",
+    "step_category": "serum",
+    "key_ingredients": [
+      "centella_asiatica"
+    ],
+    "skin_type_fit": [
+      "sensitive",
+      "acne_prone",
+      "normal",
+      "dry"
+    ],
+    "description": "A calming serum powered by Cica extract. Reduces redness and repairs the skin barrier post-breakout.",
+    "image_url": "https://www.reequil.com/cdn/shop/products/centella.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 649,
+        "url": "https://www.amazon.in/dp/B093VCGWZY",
+        "rating": 4.3,
+        "review_count": 4200,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 675,
+        "url": "https://www.nykaa.com/reequil-centella",
+        "rating": 4.2,
+        "review_count": 1800,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p015",
+    "name": "COSRX Snail Mucin 96% Power Repairing Essence",
+    "brand": "COSRX",
+    "step_category": "serum",
+    "key_ingredients": [
+      "snail_mucin",
+      "hyaluronic_acid"
+    ],
+    "skin_type_fit": [
+      "dry",
+      "normal",
+      "sensitive",
+      "combination"
+    ],
+    "description": "A legendary K-beauty serum. 96% snail secretion filtrate for deep repair, hydration, and a glass-skin glow.",
+    "image_url": "https://m.media-amazon.com/images/I/51v7QgjiqWL.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 1350,
+        "url": "https://www.amazon.in/dp/B00PBD3U2K",
+        "rating": 4.5,
+        "review_count": 28000,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 1395,
+        "url": "https://www.nykaa.com/cosrx-snail-mucin",
+        "rating": 4.4,
+        "review_count": 8600,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p016",
+    "name": "Moisturizing Cream",
+    "brand": "CeraVe",
+    "step_category": "moisturizer",
+    "key_ingredients": [
+      "ceramides",
+      "hyaluronic_acid"
+    ],
+    "skin_type_fit": [
+      "dry",
+      "normal",
+      "sensitive"
+    ],
+    "description": "The gold standard barrier-repair moisturizer. 3 essential ceramides + HA in a rich but non-greasy formula.",
+    "image_url": "https://m.media-amazon.com/images/I/614Q7mnNozL._AC_SS115_.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 1199,
+        "url": "https://www.amazon.in/dp/B00TTD9BRC",
+        "rating": 4.6,
+        "review_count": 41000,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 1250,
+        "url": "https://www.nykaa.com/cerave-moisturizing-cream",
+        "rating": 4.5,
+        "review_count": 14000,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p017",
+    "name": "PM Repair Super Rich Night Cream",
+    "brand": "Dot & Key",
+    "step_category": "moisturizer",
+    "key_ingredients": [
+      "ceramides",
+      "squalane",
+      "peptides"
+    ],
+    "skin_type_fit": [
+      "dry",
+      "normal",
+      "sensitive"
+    ],
+    "description": "A luxurious overnight repair cream that replenishes moisture, firms, and rebuilds the skin barrier while you sleep.",
+    "image_url": "https://www.dotandkey.com/cdn/shop/products/night_cream.jpg",
+    "platform_listings": [
+      {
+        "platform": "Nykaa",
+        "price": 795,
+        "url": "https://www.nykaa.com/dot-and-key-night-cream",
+        "rating": 4.3,
+        "review_count": 5200,
+        "in_stock": true
+      },
+      {
+        "platform": "Amazon",
+        "price": 779,
+        "url": "https://www.amazon.in/dp/B09N5FZX8B",
+        "rating": 4.2,
+        "review_count": 2100,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p018",
+    "name": "Oil Free Moisturizer",
+    "brand": "Re'equil",
+    "step_category": "moisturizer",
+    "key_ingredients": [
+      "hyaluronic_acid",
+      "niacinamide"
+    ],
+    "skin_type_fit": [
+      "oily",
+      "combination",
+      "acne_prone"
+    ],
+    "description": "A lightweight, oil-free gel moisturizer that hydrates without clogging pores or adding shine.",
+    "image_url": "https://www.reequil.com/cdn/shop/products/oilfree.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 545,
+        "url": "https://www.amazon.in/dp/B08P5H1TXK",
+        "rating": 4.3,
+        "review_count": 9800,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 575,
+        "url": "https://www.nykaa.com/reequil-oil-free-moisturizer",
+        "rating": 4.2,
+        "review_count": 4200,
+        "in_stock": true
+      },
+      {
+        "platform": "Purplle",
+        "price": 525,
+        "url": "https://www.purplle.com/reequil-oil-free-moisturizer",
+        "rating": 4.1,
+        "review_count": 2100,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p019",
+    "name": "Aloe Vera Gel",
+    "brand": "WOW Skin Science",
+    "step_category": "moisturizer",
+    "key_ingredients": [
+      "aloe_vera"
+    ],
+    "skin_type_fit": [
+      "oily",
+      "sensitive",
+      "acne_prone",
+      "combination"
+    ],
+    "description": "Pure aloe vera gel \u00e2\u20ac\u201d a lightweight, multi-use moisturizer/soothing agent for all skin types, especially oily.",
+    "image_url": "https://m.media-amazon.com/images/I/71a4ZkFqVHL.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 299,
+        "url": "https://www.amazon.in/dp/B07Q2FWKXJ",
+        "rating": 4.2,
+        "review_count": 18000,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 325,
+        "url": "https://www.nykaa.com/wow-aloe-vera-gel",
+        "rating": 4.1,
+        "review_count": 7000,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p020",
+    "name": "Plum Green Tea Pore Cleansing Face Wash",
+    "brand": "Plum",
+    "step_category": "cleanser",
+    "key_ingredients": [
+      "tea_tree",
+      "witch_hazel"
+    ],
+    "skin_type_fit": [
+      "oily",
+      "combination",
+      "acne_prone"
+    ],
+    "description": "Green tea antioxidants + witch hazel work together to cleanse deep and control excess oil.",
+    "image_url": "https://www.plumgoodness.com/cdn/shop/products/greenteawash.jpg",
+    "platform_listings": [
+      {
+        "platform": "Nykaa",
+        "price": 249,
+        "url": "https://www.nykaa.com/plum-green-tea-face-wash",
+        "rating": 4.2,
+        "review_count": 6400,
+        "in_stock": true
+      },
+      {
+        "platform": "Amazon",
+        "price": 239,
+        "url": "https://www.amazon.in/dp/B07BKP6DPP",
+        "rating": 4.1,
+        "review_count": 4800,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p021",
+    "name": "Ultra Light Indian Sunscreen SPF 50 PA++++",
+    "brand": "Re'equil",
+    "step_category": "sunscreen",
+    "key_ingredients": [
+      "spf_chemical"
+    ],
+    "skin_type_fit": [
+      "oily",
+      "combination",
+      "normal",
+      "acne_prone"
+    ],
+    "description": "Lightweight, non-whitening, matte-finish sunscreen. One of the best non-greasy SPF 50s available in India.",
+    "image_url": "https://www.reequil.com/cdn/shop/products/sunscreen.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 495,
+        "url": "https://www.amazon.in/dp/B07W8KQZKJ",
+        "rating": 4.4,
+        "review_count": 22000,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 525,
+        "url": "https://www.nykaa.com/reequil-ultra-light-sunscreen",
+        "rating": 4.3,
+        "review_count": 9800,
+        "in_stock": true
+      },
+      {
+        "platform": "Purplle",
+        "price": 479,
+        "url": "https://www.purplle.com/reequil-sunscreen-spf50",
+        "rating": 4.2,
+        "review_count": 4200,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p022",
+    "name": "Hybrid Sunscreen SPF 50",
+    "brand": "Minimalist",
+    "step_category": "sunscreen",
+    "key_ingredients": [
+      "spf_chemical",
+      "spf_mineral"
+    ],
+    "skin_type_fit": [
+      "sensitive",
+      "normal",
+      "dry",
+      "combination"
+    ],
+    "description": "A hybrid mineral + chemical sunscreen that's gentle enough for sensitive skin. No white cast.",
+    "image_url": "https://www.beminimalist.co/cdn/shop/files/sunscreen.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 499,
+        "url": "https://www.amazon.in/dp/B09BHXKJK5",
+        "rating": 4.3,
+        "review_count": 14000,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 499,
+        "url": "https://www.nykaa.com/minimalist-hybrid-spf",
+        "rating": 4.2,
+        "review_count": 5600,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p023",
+    "name": "Sun Expert SPF 50 PA+++ Tinted Sunscreen",
+    "brand": "Lakme",
+    "step_category": "sunscreen",
+    "key_ingredients": [
+      "spf_chemical"
+    ],
+    "skin_type_fit": [
+      "normal",
+      "dry",
+      "combination"
+    ],
+    "description": "A light tinted sunscreen that doubles as a light-coverage foundation. Great for Indian skin tones.",
+    "image_url": "https://m.media-amazon.com/images/I/41Y8xRb8B+L.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 349,
+        "url": "https://www.amazon.in/dp/B07PQTQ6HC",
+        "rating": 4.1,
+        "review_count": 8700,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 370,
+        "url": "https://www.nykaa.com/lakme-sun-expert-tinted",
+        "rating": 4.0,
+        "review_count": 3200,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p024",
+    "name": "Sebamed Clear Face Cleansing Foam",
+    "brand": "Sebamed",
+    "step_category": "cleanser",
+    "key_ingredients": [
+      "aloe_vera"
+    ],
+    "skin_type_fit": [
+      "sensitive",
+      "normal",
+      "acne_prone"
+    ],
+    "description": "pH 5.5 clinically proven foam cleanser designed for sensitive and acne-prone skin. Doctor-recommended.",
+    "image_url": "https://m.media-amazon.com/images/I/61HS5PjXLNL.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 699,
+        "url": "https://www.amazon.in/dp/B00JFQG1PM",
+        "rating": 4.3,
+        "review_count": 11000,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 749,
+        "url": "https://www.nykaa.com/sebamed-clear-face-foam",
+        "rating": 4.2,
+        "review_count": 4500,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": "p025",
+    "name": "Peptide Complex Serum",
+    "brand": "The Minimalist",
+    "step_category": "serum",
+    "key_ingredients": [
+      "peptides",
+      "hyaluronic_acid"
+    ],
+    "skin_type_fit": [
+      "dry",
+      "normal",
+      "sensitive",
+      "combination"
+    ],
+    "description": "Multi-peptide serum that stimulates collagen, firms skin, and deeply hydrates. Great for 25+ users.",
+    "image_url": "https://www.beminimalist.co/cdn/shop/files/peptide.jpg",
+    "platform_listings": [
+      {
+        "platform": "Amazon",
+        "price": 699,
+        "url": "https://www.amazon.in/dp/B08GJBQ3K8",
+        "rating": 4.2,
+        "review_count": 7200,
+        "in_stock": true
+      },
+      {
+        "platform": "Nykaa",
+        "price": 699,
+        "url": "https://www.nykaa.com/minimalist-peptide-serum",
+        "rating": 4.1,
+        "review_count": 3100,
+        "in_stock": true
+      }
+    ]
+  }
+]

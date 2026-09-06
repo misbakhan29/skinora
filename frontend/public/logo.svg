@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="skinoraGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E4B3"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="70%" stop-color="#C59B27"/>
+      <stop offset="100%" stop-color="#9A7410"/>
+    </linearGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#7A5C00" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#subtleGlow)">
+    <!-- Crescent Moon -->
+    <path d="M 52 10 
+             C 30 10, 14 28, 14 50 
+             C 14 72, 30 90, 52 90 
+             C 58 90, 64 88, 70 85 
+             C 58 80, 50 68, 50 54 
+             C 50 36, 61 20, 75 14 
+             C 68 11, 60 10, 52 10 Z" 
+          fill="url(#skinoraGold)" />
+
+    <!-- 5-Point Star inside upper crescent curve -->
+    <path d="M 55 24 
+             L 56.5 28.5 
+             L 61.2 28.5 
+             L 57.4 31.3 
+             L 58.8 35.8 
+             L 55 33 
+             L 51.2 35.8 
+             L 52.6 31.3 
+             L 48.8 28.5 
+             L 53.5 28.5 Z" 
+          fill="url(#skinoraGold)" />
+
+    <!-- Branch Stem -->
+    <path d="M 50 78 C 55 70, 62 58, 68 45" 
+          stroke="url(#skinoraGold)" 
+          stroke-width="2" 
+          stroke-linecap="round" 
+          fill="none" />
+
+    <!-- Leaf 1 (bottom left) -->
+    <path d="M 56 68 C 50 64, 48 57, 54 58 C 58 59, 58 65, 56 68 Z" 
+          fill="url(#skinoraGold)" />
+
+    <!-- Leaf 2 (middle right) -->
+    <path d="M 61 58 C 68 55, 71 49, 65 50 C 61 51, 60 56, 61 58 Z" 
+          fill="url(#skinoraGold)" />
+
+    <!-- Leaf 3 (top right) -->
+    <path d="M 65 49 C 71 43, 73 37, 67 39 C 63 41, 63 46, 65 49 Z" 
+          fill="url(#skinoraGold)" />
+  </g>
+</svg>

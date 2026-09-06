@@ -1,0 +1,140 @@
+{
+  "normal": {
+    "id": "normal",
+    "label": "Normal Skin",
+    "emoji": "✨",
+    "description": "Balanced, well-hydrated skin with minimal issues. Small pores, smooth texture, and a healthy glow. Lucky you!",
+    "traits": [
+      "Balanced oil and moisture levels",
+      "Small, barely visible pores",
+      "Rarely breaks out",
+      "Smooth, even texture",
+      "No significant sensitivity"
+    ],
+    "am_notes": "Focus on antioxidant protection and SPF. Light moisturizer works well.",
+    "pm_notes": "Great candidate for retinol or light exfoliation to maintain texture. Ceramides for overnight barrier support.",
+    "step_order": ["cleanser", "toner", "serum", "moisturizer", "sunscreen"],
+    "key_ingredients": {
+      "cleanser": ["gentle_foaming", "amino_acid"],
+      "toner": ["glycerin", "hyaluronic_acid"],
+      "serum": ["vitamin_c", "niacinamide", "peptides"],
+      "moisturizer": ["ceramides", "squalane"],
+      "sunscreen": ["spf_chemical", "spf_mineral"]
+    }
+  },
+  "oily": {
+    "id": "oily",
+    "label": "Oily Skin",
+    "emoji": "💧",
+    "description": "Excess sebum production, especially through the T-zone. Prone to shine, enlarged pores, and breakouts.",
+    "traits": [
+      "Shiny appearance throughout the day",
+      "Visibly enlarged pores",
+      "Prone to blackheads and acne",
+      "Thick, coarser texture",
+      "Makeup tends to slide off"
+    ],
+    "am_notes": "Lightweight, gel-based moisturizer. Niacinamide or BHA to control oil. Always SPF — oil doesn't protect from UV.",
+    "pm_notes": "BHA or retinol to clear pores. Skip heavy creams — opt for lightweight hydrating serums.",
+    "step_order": ["cleanser", "toner", "serum", "moisturizer", "sunscreen"],
+    "key_ingredients": {
+      "cleanser": ["salicylic_acid_cleanser", "gel_cleanser"],
+      "toner": ["witch_hazel", "bha_toner"],
+      "serum": ["niacinamide", "bha_salicylic", "azelaic_acid"],
+      "moisturizer": ["lightweight_gel", "niacinamide_cream"],
+      "sunscreen": ["spf_chemical", "matte_spf"]
+    }
+  },
+  "dry": {
+    "id": "dry",
+    "label": "Dry Skin",
+    "emoji": "🌸",
+    "description": "Lacks sufficient moisture and natural oils. Feels tight, may flake, and is prone to irritation and fine lines.",
+    "traits": [
+      "Tight, uncomfortable feeling after washing",
+      "Visible flaking or rough patches",
+      "Dull, lackluster complexion",
+      "Fine lines more visible",
+      "Rare breakouts but prone to sensitivity"
+    ],
+    "am_notes": "Prioritize rich hydration — hyaluronic acid, ceramides, and a thicker moisturizer. SPF is non-negotiable.",
+    "pm_notes": "Overnight hydrating masks or richer creams. If using retinol, sandwich it with moisturizer. Oils like squalane on top.",
+    "step_order": ["cleanser", "toner", "serum", "moisturizer", "sunscreen"],
+    "key_ingredients": {
+      "cleanser": ["cream_cleanser", "oil_cleanser"],
+      "toner": ["glycerin", "hyaluronic_toner"],
+      "serum": ["hyaluronic_acid", "peptides", "ceramides"],
+      "moisturizer": ["ceramides", "squalane", "rich_cream"],
+      "sunscreen": ["spf_mineral", "hydrating_spf"]
+    }
+  },
+  "combination": {
+    "id": "combination",
+    "label": "Combination Skin",
+    "emoji": "⚡",
+    "description": "An oily T-zone (forehead, nose, chin) with normal to dry cheeks. The most common skin type — requires zone-specific care.",
+    "traits": [
+      "Oily T-zone, drier cheeks",
+      "Occasional breakouts on forehead/nose",
+      "Enlarged pores in T-zone",
+      "Normal to dry cheek area",
+      "Can shift with seasons"
+    ],
+    "am_notes": "Balancing is key — niacinamide works well for both zones. Lightweight hydration that won't over-grease the T-zone.",
+    "pm_notes": "BHA to address T-zone congestion. Richer moisturizer on cheeks if needed. Retinol works well for most combination skin.",
+    "step_order": ["cleanser", "toner", "serum", "moisturizer", "sunscreen"],
+    "key_ingredients": {
+      "cleanser": ["gel_cleanser", "gentle_foaming"],
+      "toner": ["niacinamide_toner", "glycerin"],
+      "serum": ["niacinamide", "hyaluronic_acid", "bha_salicylic"],
+      "moisturizer": ["lightweight_moisturizer", "ceramides"],
+      "sunscreen": ["spf_chemical", "spf_mineral"]
+    }
+  },
+  "sensitive": {
+    "id": "sensitive",
+    "label": "Sensitive Skin",
+    "emoji": "🌿",
+    "description": "Reactive skin that flushes, stings, or breaks out in response to products, weather, or stress. Barrier function is often compromised.",
+    "traits": [
+      "Redness and flushing easily",
+      "Stinging or burning with many products",
+      "Reacts to fragrance, alcohol, harsh actives",
+      "Prone to rosacea or eczema",
+      "Requires very gentle, minimal routines"
+    ],
+    "am_notes": "Minimal actives. Barrier-first approach — ceramides and centella. Mineral SPF to avoid chemical filter irritation.",
+    "pm_notes": "Focus on repair: ceramides, centella, squalane. Avoid retinol until barrier is strong. Patch-test everything.",
+    "step_order": ["cleanser", "toner", "serum", "moisturizer", "sunscreen"],
+    "key_ingredients": {
+      "cleanser": ["micellar_water", "cream_cleanser"],
+      "toner": ["aloe_vera", "centella_toner"],
+      "serum": ["centella_asiatica", "azelaic_acid", "hyaluronic_acid"],
+      "moisturizer": ["ceramides", "squalane"],
+      "sunscreen": ["spf_mineral"]
+    }
+  },
+  "acne_prone": {
+    "id": "acne_prone",
+    "label": "Acne-Prone Skin",
+    "emoji": "🛡️",
+    "description": "Regularly experiences breakouts — whiteheads, blackheads, or cystic acne. Often oily but can also be dry-acne. Needs targeted, non-comedogenic care.",
+    "traits": [
+      "Frequent breakouts of varying severity",
+      "Clogged or enlarged pores",
+      "Post-acne marks or scarring",
+      "Can be oily OR dry — acne isn't only oily skin",
+      "Inflamed, red spots alongside non-inflamed ones"
+    ],
+    "am_notes": "Niacinamide + SPF combo is your best friend. Keep routine simple during active breakouts — don't pile on actives.",
+    "pm_notes": "BHA to clear pores, benzoyl peroxide for active spots (spot-treat only). Introduce retinol slowly once inflammation is down.",
+    "step_order": ["cleanser", "toner", "serum", "moisturizer", "sunscreen"],
+    "key_ingredients": {
+      "cleanser": ["salicylic_acid_cleanser", "gel_cleanser"],
+      "toner": ["bha_toner", "niacinamide_toner"],
+      "serum": ["niacinamide", "bha_salicylic", "azelaic_acid", "centella_asiatica"],
+      "moisturizer": ["lightweight_moisturizer", "ceramides"],
+      "sunscreen": ["spf_mineral", "spf_chemical"]
+    }
+  }
+}

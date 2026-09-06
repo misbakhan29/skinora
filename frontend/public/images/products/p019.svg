@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" fill="none">
+  <!-- Background -->
+  <rect width="200" height="220" rx="16" fill="#FFFFFF"/>
+  <circle cx="100" cy="120" r="75" fill="#E8F5E9" opacity="0.4"/>
+  
+  
+        <!-- Lid -->
+        <rect x="62" y="65" width="76" height="25" rx="6" fill="#2D6A4F" />
+        <!-- Jar Body -->
+        <rect x="58" y="90" width="84" height="95" rx="16" fill="white" stroke="#2D6A4F" stroke-width="3" />
+        <rect x="64" y="95" width="72" height="85" rx="12" fill="#E8F5E9" opacity="0.5" />
+        <!-- Label -->
+        <rect x="68" y="110" width="64" height="55" rx="6" fill="white" stroke="#E2E8F0" stroke-width="1.5" />
+        <rect x="74" y="118" width="52" height="4" rx="2" fill="#52B788" />
+        
+
+  <!-- Brand & Product Text on Bottle Label -->
+  <text x="100" y="130" font-family="sans-serif" font-size="7" font-weight="bold" fill="#2D6A4F" text-anchor="middle" letter-spacing="0.5">WOW SKIN SCIENC</text>
+  <text x="100" y="142" font-family="sans-serif" font-size="6" font-weight="600" fill="#334155" text-anchor="middle">Aloe Vera Gel</text>
+  <text x="100" y="152" font-family="sans-serif" font-size="5" fill="#64748B" text-anchor="middle">MOISTURIZER</text>
+</svg>

@@ -1,0 +1,406 @@
+[
+  {
+    "id": "niacinamide",
+    "name": "Niacinamide (Vitamin B3)",
+    "category": "serum",
+    "function": "Barrier support, oil control, pore minimizing, brightening, anti-inflammatory",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "highly_recommended",
+      "dry": "recommended",
+      "combination": "highly_recommended",
+      "sensitive": "recommended_with_caution",
+      "acne_prone": "highly_recommended"
+    },
+    "conflicts": [
+      {
+        "with": "vitamin_c",
+        "default_severity": "safe",
+        "skin_type_overrides": { "sensitive": "caution" },
+        "reason": "Generally safe together; sensitive skin may experience mild irritation when layering two actives. Use at different times of day if unsure."
+      }
+    ]
+  },
+  {
+    "id": "vitamin_c",
+    "name": "Vitamin C (L-Ascorbic Acid)",
+    "category": "serum",
+    "function": "Brightening, antioxidant protection, collagen synthesis, hyperpigmentation reduction",
+    "suitability_by_skin_type": {
+      "normal": "highly_recommended",
+      "oily": "recommended",
+      "dry": "recommended_with_caution",
+      "combination": "recommended",
+      "sensitive": "caution",
+      "acne_prone": "recommended"
+    },
+    "conflicts": [
+      {
+        "with": "niacinamide",
+        "default_severity": "safe",
+        "skin_type_overrides": { "sensitive": "caution" },
+        "reason": "The niacinamide-flushes-vitamin-C myth is debunked at typical use concentrations. Safe to use together."
+      },
+      {
+        "with": "aha_glycolic",
+        "default_severity": "caution",
+        "skin_type_overrides": { "sensitive": "avoid", "dry": "caution" },
+        "reason": "Both are acidic actives. Layering can cause over-exfoliation and irritation, especially on sensitive or dry skin. Use at different times."
+      },
+      {
+        "with": "retinol",
+        "default_severity": "caution",
+        "skin_type_overrides": { "sensitive": "avoid" },
+        "reason": "Both are potent actives. Use vitamin C in AM and retinol in PM to avoid irritation."
+      }
+    ]
+  },
+  {
+    "id": "retinol",
+    "name": "Retinol (Vitamin A)",
+    "category": "serum",
+    "function": "Anti-aging, cell turnover, acne treatment, collagen stimulation",
+    "suitability_by_skin_type": {
+      "normal": "highly_recommended",
+      "oily": "highly_recommended",
+      "dry": "recommended_with_caution",
+      "combination": "recommended",
+      "sensitive": "caution",
+      "acne_prone": "recommended"
+    },
+    "conflicts": [
+      {
+        "with": "aha_glycolic",
+        "default_severity": "avoid",
+        "skin_type_overrides": {},
+        "reason": "Both exfoliate and combined use causes significant irritation and barrier damage for all skin types. Never use together."
+      },
+      {
+        "with": "bha_salicylic",
+        "default_severity": "caution",
+        "skin_type_overrides": { "sensitive": "avoid", "dry": "avoid" },
+        "reason": "Layering retinol and BHA is harsh. Use on alternating nights or at different steps."
+      },
+      {
+        "with": "vitamin_c",
+        "default_severity": "caution",
+        "skin_type_overrides": { "sensitive": "avoid" },
+        "reason": "Use vitamin C in AM and retinol strictly in PM."
+      },
+      {
+        "with": "benzoyl_peroxide",
+        "default_severity": "avoid",
+        "skin_type_overrides": {},
+        "reason": "Benzoyl peroxide oxidizes and inactivates retinol. They cancel each other out. Use separately."
+      }
+    ]
+  },
+  {
+    "id": "aha_glycolic",
+    "name": "AHA — Glycolic Acid",
+    "category": "serum",
+    "function": "Chemical exfoliation, brightening, texture refinement, hyperpigmentation",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "highly_recommended",
+      "dry": "recommended_with_caution",
+      "combination": "recommended",
+      "sensitive": "caution",
+      "acne_prone": "recommended"
+    },
+    "conflicts": [
+      {
+        "with": "retinol",
+        "default_severity": "avoid",
+        "skin_type_overrides": {},
+        "reason": "Combined exfoliation causes barrier damage. Never use together."
+      },
+      {
+        "with": "vitamin_c",
+        "default_severity": "caution",
+        "skin_type_overrides": { "sensitive": "avoid" },
+        "reason": "Double acid layering can irritate. Use at different times of day."
+      },
+      {
+        "with": "bha_salicylic",
+        "default_severity": "caution",
+        "skin_type_overrides": { "sensitive": "avoid", "dry": "avoid" },
+        "reason": "Double exfoliant. Use one OR the other per session, not both."
+      }
+    ]
+  },
+  {
+    "id": "bha_salicylic",
+    "name": "BHA — Salicylic Acid",
+    "category": "serum",
+    "function": "Oil-soluble exfoliation, unclogs pores, anti-acne, anti-inflammatory",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "highly_recommended",
+      "dry": "caution",
+      "combination": "highly_recommended",
+      "sensitive": "caution",
+      "acne_prone": "highly_recommended"
+    },
+    "conflicts": [
+      {
+        "with": "retinol",
+        "default_severity": "caution",
+        "skin_type_overrides": { "sensitive": "avoid", "dry": "avoid" },
+        "reason": "Harsh combination. Alternate nights."
+      },
+      {
+        "with": "aha_glycolic",
+        "default_severity": "caution",
+        "skin_type_overrides": { "sensitive": "avoid", "dry": "avoid" },
+        "reason": "Double exfoliant — pick one per routine."
+      }
+    ]
+  },
+  {
+    "id": "hyaluronic_acid",
+    "name": "Hyaluronic Acid",
+    "category": "serum",
+    "function": "Deep hydration, plumping, moisture retention, barrier support",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "highly_recommended",
+      "combination": "recommended",
+      "sensitive": "highly_recommended",
+      "acne_prone": "recommended"
+    },
+    "conflicts": []
+  },
+  {
+    "id": "ceramides",
+    "name": "Ceramides",
+    "category": "moisturizer",
+    "function": "Barrier repair, moisture lock, skin protection, anti-irritation",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "highly_recommended",
+      "combination": "recommended",
+      "sensitive": "highly_recommended",
+      "acne_prone": "recommended"
+    },
+    "conflicts": []
+  },
+  {
+    "id": "benzoyl_peroxide",
+    "name": "Benzoyl Peroxide",
+    "category": "serum",
+    "function": "Kills acne-causing bacteria, reduces inflammation, unclogs pores",
+    "suitability_by_skin_type": {
+      "normal": "recommended_with_caution",
+      "oily": "recommended",
+      "dry": "caution",
+      "combination": "recommended",
+      "sensitive": "avoid",
+      "acne_prone": "highly_recommended"
+    },
+    "conflicts": [
+      {
+        "with": "retinol",
+        "default_severity": "avoid",
+        "skin_type_overrides": {},
+        "reason": "Benzoyl peroxide oxidizes retinol, rendering it ineffective. Use separately."
+      }
+    ]
+  },
+  {
+    "id": "azelaic_acid",
+    "name": "Azelaic Acid",
+    "category": "serum",
+    "function": "Anti-acne, anti-rosacea, brightening, anti-inflammatory, gentle exfoliation",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "recommended",
+      "combination": "recommended",
+      "sensitive": "highly_recommended",
+      "acne_prone": "highly_recommended"
+    },
+    "conflicts": []
+  },
+  {
+    "id": "peptides",
+    "name": "Peptides",
+    "category": "serum",
+    "function": "Collagen stimulation, anti-aging, barrier repair, firming",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "highly_recommended",
+      "combination": "recommended",
+      "sensitive": "recommended",
+      "acne_prone": "recommended"
+    },
+    "conflicts": [
+      {
+        "with": "aha_glycolic",
+        "default_severity": "caution",
+        "skin_type_overrides": {},
+        "reason": "Low pH from AHA can reduce peptide efficacy. Apply peptides after AHA has fully absorbed or use at different times."
+      }
+    ]
+  },
+  {
+    "id": "squalane",
+    "name": "Squalane",
+    "category": "moisturizer",
+    "function": "Lightweight emollient, moisture lock, anti-oxidant, non-comedogenic",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "highly_recommended",
+      "combination": "recommended",
+      "sensitive": "highly_recommended",
+      "acne_prone": "recommended"
+    },
+    "conflicts": []
+  },
+  {
+    "id": "spf_chemical",
+    "name": "Chemical SPF (Avobenzone, Octinoxate)",
+    "category": "sunscreen",
+    "function": "UV protection (UVA/UVB), photodamage prevention",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "recommended",
+      "combination": "recommended",
+      "sensitive": "recommended_with_caution",
+      "acne_prone": "recommended"
+    },
+    "conflicts": []
+  },
+  {
+    "id": "spf_mineral",
+    "name": "Mineral SPF (Zinc Oxide, Titanium Dioxide)",
+    "category": "sunscreen",
+    "function": "Broad-spectrum UV protection, sits on skin surface, anti-inflammatory",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "recommended",
+      "combination": "recommended",
+      "sensitive": "highly_recommended",
+      "acne_prone": "highly_recommended"
+    },
+    "conflicts": []
+  },
+  {
+    "id": "centella_asiatica",
+    "name": "Centella Asiatica (Cica)",
+    "category": "serum",
+    "function": "Calming, anti-inflammatory, barrier repair, wound healing",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "recommended",
+      "combination": "recommended",
+      "sensitive": "highly_recommended",
+      "acne_prone": "highly_recommended"
+    },
+    "conflicts": []
+  },
+  {
+    "id": "glycerin",
+    "name": "Glycerin",
+    "category": "toner",
+    "function": "Humectant, deep hydration, barrier support, moisture attraction",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "highly_recommended",
+      "combination": "recommended",
+      "sensitive": "highly_recommended",
+      "acne_prone": "recommended"
+    },
+    "conflicts": []
+  },
+  {
+    "id": "lactic_acid",
+    "name": "Lactic Acid (AHA)",
+    "category": "serum",
+    "function": "Gentle chemical exfoliation, brightening, hydration, texture",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "recommended",
+      "combination": "recommended",
+      "sensitive": "recommended",
+      "acne_prone": "recommended"
+    },
+    "conflicts": [
+      {
+        "with": "retinol",
+        "default_severity": "avoid",
+        "skin_type_overrides": {},
+        "reason": "Do not layer exfoliating acids with retinol. Use on alternate nights."
+      }
+    ]
+  },
+  {
+    "id": "aloe_vera",
+    "name": "Aloe Vera",
+    "category": "toner",
+    "function": "Soothing, anti-inflammatory, lightweight hydration, redness reduction",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "recommended",
+      "combination": "recommended",
+      "sensitive": "highly_recommended",
+      "acne_prone": "recommended"
+    },
+    "conflicts": []
+  },
+  {
+    "id": "witch_hazel",
+    "name": "Witch Hazel",
+    "category": "toner",
+    "function": "Pore tightening, oil control, mild astringent",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "caution",
+      "combination": "recommended",
+      "sensitive": "caution",
+      "acne_prone": "recommended"
+    },
+    "conflicts": []
+  },
+  {
+    "id": "tea_tree",
+    "name": "Tea Tree Oil",
+    "category": "serum",
+    "function": "Antibacterial, anti-acne, anti-inflammatory, spot treatment",
+    "suitability_by_skin_type": {
+      "normal": "recommended_with_caution",
+      "oily": "recommended",
+      "dry": "caution",
+      "combination": "recommended",
+      "sensitive": "caution",
+      "acne_prone": "highly_recommended"
+    },
+    "conflicts": []
+  },
+  {
+    "id": "snail_mucin",
+    "name": "Snail Mucin",
+    "category": "serum",
+    "function": "Repair, hydration, brightening, anti-aging, barrier support",
+    "suitability_by_skin_type": {
+      "normal": "recommended",
+      "oily": "recommended",
+      "dry": "highly_recommended",
+      "combination": "recommended",
+      "sensitive": "recommended",
+      "acne_prone": "recommended"
+    },
+    "conflicts": []
+  }
+]
