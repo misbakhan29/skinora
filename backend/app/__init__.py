@@ -5,6 +5,7 @@ from app.extensions import db, migrate, jwt, cors
 
 def create_app():
     app = Flask(__name__)
+
     cfg = get_config()
     app.config.from_object(cfg)
 
@@ -12,6 +13,7 @@ def create_app():
     db.init_app(app)
     migrate.init_app(app, db)
     jwt.init_app(app)
+
     cors.init_app(
         app,
         resources={r"/*": {"origins": cfg.FRONTEND_URL}},
@@ -38,7 +40,11 @@ def create_app():
     def health():
         return {"status": "ok", "app": "Skinora API"}, 200
 
-    # -- Import models so Flask-Migrate can detect them --
+    # -- Import models so Flask-Migrate / SQLAlchemy can detect them --
     from app import models  # noqa: F401
+
+    # -- Create database tables if they don't exist --
+    with app.app_context():
+        db.create_all()
 
     return app
